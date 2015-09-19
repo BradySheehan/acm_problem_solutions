@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class magnets {
 
 	public static void main(String[] args) {
-		File file = new File("/Users/BradySheehan/Documents/Development/java/problem_solving/FridgeMagents/src/magnets_input.txt");
+		File file = new File("magnets_input.txt");
 		try{  
 			Scanner sc = new Scanner(file);
 			String line = null;
