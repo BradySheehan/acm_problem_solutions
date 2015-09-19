@@ -50,7 +50,7 @@ public class lruCaching {
 		}
 		
 		public static void main(String[] args) {
-			File file = new File("/Users/BradySheehan/Documents/Development/java/problem_solving/lru_caching/src/lru_caching/lru_input.txt");
+			File file = new File("lru_input.txt");
 			try{
 				Scanner sc = new Scanner(file);
 				int simulationNum = 1;
