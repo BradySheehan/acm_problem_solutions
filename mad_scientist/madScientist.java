@@ -22,7 +22,7 @@ public class madScientist {
 		System.out.println("");
 	}
 	public static void main(String[] args) {
-		File file = new File("/Users/BradySheehan/Documents/Development/java/problem_solving/mad_scientist/src/mad_scientist/mad_input.txt");
+		File file = new File("mad_input.txt");
 		try{
 			Scanner sc = new Scanner(file);
 			while(sc.hasNextLine()){
