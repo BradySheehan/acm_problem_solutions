@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Is_the_name_of_this_problem {
 
 	public static void main(String[] args) {
-		File file = new File("quine.txt");
+		File file = new File("quine_input.txt");
 		try{
 			Scanner sc = new Scanner(file);
 			while(sc.hasNextLine()){
